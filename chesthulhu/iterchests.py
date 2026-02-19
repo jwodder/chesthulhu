@@ -4,14 +4,10 @@ from collections.abc import Iterator
 import csv
 from dataclasses import asdict, dataclass, fields
 from enum import Enum
-import os
+from importlib.resources import files
 from pathlib import Path
-import struct
-import sys
-from typing import IO
-from itertiles import itertiles_rle
-
-DATA_DIR = Path(__file__).with_name("data")
+from .itertiles import itertiles_rle
+from .reader import ByteReader
 
 # Mapping from .wld versions to the number of bytes in (world width in tiles,
 # span point x]
@@ -151,10 +147,14 @@ class ItemStack:
 
 
 def iterchests(p: Path) -> Iterator[Chest]:
-    with (DATA_DIR / "items.csv").open(newline="") as fp:
+    with (files("chesthulhu") / "data" / "items.csv").open(
+        encoding="utf-8", newline=""
+    ) as fp:
         incsv = csv.DictReader(fp)
         items = {int(row["id"]): row["name"] for row in incsv}
-    with (DATA_DIR / "prefixes2.csv").open(newline="") as fp:
+    with (files("chesthulhu") / "data" / "prefixes.csv").open(
+        encoding="utf-8", newline=""
+    ) as fp:
         incsv = csv.DictReader(fp)
         prefixes = {int(row["id"]): row["name"] for row in incsv}
     chest_types = {}
@@ -223,94 +223,3 @@ def iterchests(p: Path) -> Iterator[Chest]:
                 name=name,
                 contents=contents,
             )
-
-
-@dataclass
-class ByteReader:
-    fp: IO[bytes]
-
-    def seek(self, pos: int) -> None:
-        self.fp.seek(pos)
-
-    def advance(self, length: int) -> None:
-        self.fp.seek(length, os.SEEK_CUR)
-
-    def tell(self) -> int:
-        return self.fp.tell()
-
-    def read_exact(self, length: int) -> bytes:
-        bs = self.fp.read(length)
-        if len(bs) < length:
-            raise ValueError(f"tried to read {length} bytes, got {len(bs)}")
-        return bs
-
-    def read_bool(self) -> bool:
-        return bool(self.read_u8())
-
-    def read_u8(self) -> int:
-        bs = self.read_exact(1)
-        return int.from_bytes(bs)  # Not signed
-
-    def read_int(self, length: int) -> int:
-        bs = self.read_exact(length)
-        return int.from_bytes(bs, byteorder="little", signed=True)
-
-    def read_i16(self) -> int:
-        return self.read_int(2)
-
-    def read_i32(self) -> int:
-        return self.read_int(4)
-
-    def read_i64(self) -> int:
-        return self.read_int(8)
-
-    def read_double(self) -> float:
-        bs = self.read_exact(8)
-        return struct.unpack("<d", bs)[0]  # type: ignore
-
-    def read_string(self) -> str:
-        sz = self.read_u8()
-        return self.read_exact(sz).decode("latin-1")
-
-    def read_rect(self) -> Rect:
-        left = self.read_i32()
-        right = self.read_i32()
-        top = self.read_i32()
-        bottom = self.read_i32()
-        return Rect(left, right, top, bottom)
-
-
-@dataclass
-class Rect:
-    left: int
-    right: int
-    top: int
-    bottom: int
-
-
-if __name__ == "__main__":
-    p = Path(sys.argv[1])
-    first = True
-    for chest in iterchests(p):
-        if first:
-            first = False
-        else:
-            print()
-        print(
-            f"x={chest.x} y={chest.y} long={chest.long} lat={chest.lat} type={chest.type!r} name={chest.name!r}"
-        )
-        for it in chest.contents:
-            s = "- "
-            if it.modifier_id != 0:
-                if it.modifier_name is not None:
-                    s += it.modifier_name
-                else:
-                    s += f"[MOD {it.modifier_id}]"
-                s += " "
-            if it.item_name is not None:
-                s += it.item_name
-            else:
-                s += f"#{it.item_id}"
-            if it.qty > 1:
-                s += f" × {it.qty}"
-            print(s)
