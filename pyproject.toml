@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "versioningit"]
 build-backend = "hatchling.build"
 
 [project]
@@ -41,7 +41,7 @@ chesthulhu = "chesthulhu.__main__:main"
 "Bug Tracker" = "https://github.com/jwodder/chesthulhu/issues"
 
 [tool.hatch.version]
-path = "src/chesthulhu/__init__.py"
+source = "versioningit"
 
 [tool.hatch.build.targets.sdist]
 include = [
