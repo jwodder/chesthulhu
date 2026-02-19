@@ -38,6 +38,23 @@ class Chest:
     name: str
     contents: list[ItemStack]
 
+    def to_toml(self) -> str:
+        s = f"tile-coords = {{ x = {self.x}, y = {self.y} }}\n"
+        s += f"gps-coords = {{ long = {self.long}, lat = {self.lat} }}\n"
+        if isinstance(self.type, str):
+            s += "type = " + toml_string(self.type) + "\n"
+        elif isinstance(self.type, RawChestType):
+            s += "type = " + self.type.to_toml() + "\n"
+        s += "name = " + toml_string(self.name) + "\n"
+        if self.contents:
+            s += "contents = [\n"
+            for stack in self.contents:
+                s += "    " + stack.to_toml() + ",\n"
+            s += "]\n"
+        else:
+            s += "contents = []\n"
+        return s
+
 
 @dataclass
 class ItemStack:
@@ -45,10 +62,30 @@ class ItemStack:
     item: str | Id
     modifier: str | Id | None
 
+    def to_toml(self) -> str:
+        s = "{ item = "
+        if isinstance(self.item, str):
+            s += toml_string(self.item)
+        else:
+            s += self.item.to_toml()
+        s += ", "
+        if self.modifier is not None:
+            s += "modifier = "
+            if isinstance(self.modifier, str):
+                s += toml_string(self.modifier)
+            else:
+                s += self.modifier.to_toml()
+            s += ", "
+        s += f"qty = {self.qty} }}"
+        return s
+
 
 @dataclass
 class Id:
     value: int
+
+    def to_toml(self) -> str:
+        return f"{{ id = {self.value} }}"
 
 
 @dataclass
@@ -56,6 +93,9 @@ class RawChestType:
     tile_id: int
     u: int
     v: int
+
+    def to_toml(self) -> str:
+        return f"{{ tile-id = {self.tile_id}, u = {self.u}, v = {self.v} }}"
 
 
 @dataclass
@@ -368,3 +408,31 @@ def itertiles_rle(reader: FieldReader, info: WorldInfo) -> Iterator[tuple[Tile, 
             x += 1
     assert x == info.tile_width, f"{x=} != {info.tile_width=}"
     assert y == 0, f"{y=} != 0"
+
+
+def toml_string(s: str) -> str:
+    s2 = '"'
+    for c in s:
+        match c:
+            case '"':
+                s2 += r"\""
+            case "\\":
+                s2 += r"\\"
+            case "\b":
+                s2 += r"\b"
+            case "\t":
+                s2 += r"\t"
+            case "\n":
+                s2 += r"\n"
+            case "\f":
+                s2 += r"\f"
+            case "\r":
+                s2 += r"\r"
+            case "\x1f":
+                s2 += r"\x1f"
+            case c if ord(c) < 0x20:
+                s2 += "\\x{:02x}".format(ord(c))
+            case c:
+                s2 += c
+    s2 += '"'
+    return s2
