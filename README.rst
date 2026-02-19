@@ -15,6 +15,7 @@
 
 `GitHub <https://github.com/jwodder/chesthulhu>`_
 | `Issues <https://github.com/jwodder/chesthulhu/issues>`_
+| `Changelog <https://github.com/jwodder/chesthulhu/blob/main/CHANGELOG.md>`_
 
 ``chesthulhu`` is a Python program for examining a Terraria_ world (``.wld``)
 file and extracting information about all chests and other containers in the
