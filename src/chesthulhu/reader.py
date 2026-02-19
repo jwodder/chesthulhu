@@ -65,7 +65,14 @@ class FieldReader:
         return struct.unpack("<d", bs)[0]  # type: ignore
 
     def read_string(self) -> str:
-        sz = self.read_u8()
+        sz = 0
+        enclen = 0
+        while True:
+            byte = self.read_u8()
+            sz |= (byte & 0b0111_1111) << (7 * enclen)
+            enclen += 1
+            if not (byte & 0b1000_0000):
+                break
         return self.read_exact(sz).decode("utf-8", "replace")
 
     def read_rect(self) -> Rect:
