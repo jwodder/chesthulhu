@@ -6,8 +6,20 @@ from . import Database, __version__, read_chests, toml_string
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-o", "--outfile", default="-")
+    parser = argparse.ArgumentParser(
+        description=(
+            "Extract chest information from a Terraria .wld file\n"
+            "\n"
+            "Visit <https://github.com/jwodder/chesthulhu> for more information."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "-o",
+        "--outfile",
+        default="-",
+        help="Write output to given file [default: stdout]",
+    )
     parser.add_argument(
         "-V", "--version", action="version", version=f"%(prog)s {__version__}"
     )
