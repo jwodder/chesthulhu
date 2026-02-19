@@ -1,3 +1,4 @@
+from __future__ import annotations
 from pathlib import Path
 import sys
 from .iterchests import iterchests
@@ -12,7 +13,8 @@ def main() -> None:
         else:
             print()
         print(
-            f"x={chest.x} y={chest.y} long={chest.long} lat={chest.lat} type={chest.type!r} name={chest.name!r}"
+            f"x={chest.x} y={chest.y} long={chest.long} lat={chest.lat}"
+            f" type={chest.type!r} name={chest.name!r}"
         )
         for it in chest.contents:
             s = "- "

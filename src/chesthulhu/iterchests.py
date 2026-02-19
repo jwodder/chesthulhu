@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 from collections.abc import Iterator
 import csv
-from dataclasses import asdict, dataclass, fields
-from enum import Enum
+from dataclasses import dataclass
 from importlib.resources import files
 from pathlib import Path
 from .itertiles import itertiles_rle
@@ -178,17 +176,17 @@ def iterchests(p: Path) -> Iterator[Chest]:
             for j in range(8):
                 if b & (1 << j):
                     important.add(i * 8 + j)
-        _world_name = reader.read_string()
-        _world_seed = reader.read_string()
-        _generator_version = reader.read_i64()
-        _guid = reader.read_exact(16)
-        _world_id = reader.read_i32()
-        _bounds = reader.read_rect()
-        _tile_height = reader.read_i32()
-        _tile_width = reader.read_i32()
+        _world_name = reader.read_string()  # noqa: F841
+        _world_seed = reader.read_string()  # noqa: F841
+        _generator_version = reader.read_i64()  # noqa: F841
+        _guid = reader.read_exact(16)  # noqa: F841
+        _world_id = reader.read_i32()  # noqa: F841
+        _bounds = reader.read_rect()  # noqa: F841
+        _tile_height = reader.read_i32()  # noqa: F841
+        _tile_width = reader.read_i32()  # noqa: F841
         reader.advance(COORD_JUMPS[version])
         spawn_point_x = reader.read_i32()
-        _spawn_point_y = reader.read_i32()
+        _spawn_point_y = reader.read_i32()  # noqa: F841
         underground_level = int(reader.read_double())
         reader.seek(section_offsets[2])
         chest_qty = reader.read_i16()

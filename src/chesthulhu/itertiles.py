@@ -1,14 +1,8 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 from collections.abc import Iterator
-import csv
-from dataclasses import asdict, dataclass, fields, replace
+from dataclasses import asdict, dataclass, replace
 from enum import Enum
-import os
 from pathlib import Path
-import struct
-import sys
-from typing import IO
 from .reader import ByteReader
 
 # Mapping from .wld versions to the number of bytes in (world width in tiles,
@@ -90,17 +84,17 @@ def itertiles_rle(p: Path) -> Iterator[tuple[Tile, int]]:
             for j in range(8):
                 if b & (1 << j):
                     important.add(i * 8 + j)
-        _world_name = reader.read_string()
-        _world_seed = reader.read_string()
-        _generator_version = reader.read_i64()
-        _guid = reader.read_exact(16)
-        _world_id = reader.read_i32()
-        _bounds = reader.read_rect()
+        _world_name = reader.read_string()  # noqa: F841
+        _world_seed = reader.read_string()  # noqa: F841
+        _generator_version = reader.read_i64()  # noqa: F841
+        _guid = reader.read_exact(16)  # noqa: F841
+        _world_id = reader.read_i32()  # noqa: F841
+        _bounds = reader.read_rect()  # noqa: F841
         tile_height = reader.read_i32()
         tile_width = reader.read_i32()
         reader.advance(COORD_JUMPS[version])
         spawn_point_x = reader.read_i32()
-        _spawn_point_y = reader.read_i32()
+        _spawn_point_y = reader.read_i32()  # noqa: F841
         underground_level = int(reader.read_double())
         reader.seek(section_offsets[1])
         y = 0
@@ -119,7 +113,9 @@ def itertiles_rle(p: Path) -> Iterator[tuple[Tile, int]]:
                 tile_flags = reader.read_u8()  # lihzahrd's flags2
                 if tile_flags & (1 << 0):
                     tile_flags |= reader.read_u8() << 8  # lihzahrd's flags3
-                    # Per <https://github.com/Steffo99/lihzahrd/blob/c162d33a9204164c27643bcbb33035120b0032aa/src/lihzahrd/world.py#L278-L279>:
+                    # Per <https://github.com/Steffo99/lihzahrd/blob
+                    #   /c162d33a9204164c27643bcbb33035120b0032aa
+                    #   /src/lihzahrd/world.py#L278-L279>:
                     if tile_flags & (1 << 8):
                         flags4 = reader.read_u8()
             if flags & (1 << 1):
