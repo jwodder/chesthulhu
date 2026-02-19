@@ -1,0 +1,99 @@
+tile_id,u,v,name
+21,0,0,Chest
+21,36,0,Gold Chest
+21,72,0,Locked Gold Chest
+21,108,0,Shadow Chest
+21,144,0,Locked Shadow Chest
+21,180,0,Barrel
+21,216,0,Trash Can
+21,252,0,Ebonwood Chest
+21,288,0,Rich Mahogany Chest
+21,324,0,Pearlwood Chest
+21,360,0,Ivy Chest
+21,396,0,Ice Chest
+21,432,0,Living Wood Chest
+21,468,0,Skyware Chest
+21,504,0,Shadewood Chest
+21,540,0,Web Covered Chest
+21,576,0,Lihzahrd Chest
+21,612,0,Water Chest
+21,648,0,Jungle Chest
+21,684,0,Corruption Chest
+21,720,0,Crimson Chest
+21,756,0,Hallowed Chest
+21,792,0,Frozen Chest
+21,828,0,Locked Jungle Chest
+21,864,0,Locked Corruption Chest
+21,900,0,Locked Crimson Chest
+21,936,0,Locked Hallowed Chest
+21,972,0,Locked Frozen Chest
+21,1008,0,Dynasty Chest
+21,1044,0,Honey Chest
+21,1080,0,Steampunk Chest
+21,1116,0,Palm Wood Chest
+21,1152,0,Mushroom Chest
+21,1188,0,Boreal Wood Chest
+21,1224,0,Slime Chest
+21,1260,0,Green Dungeon Chest
+21,1296,0,Locked Green Dungeon Chest
+21,1332,0,Pink Dungeon Chest
+21,1368,0,Locked Pink Dungeon Chest
+21,1404,0,Blue Dungeon Chest
+21,1440,0,Locked Blue Dungeon Chest
+21,1476,0,Bone Chest
+21,1512,0,Cactus Chest
+21,1548,0,Flesh Chest
+21,1584,0,Obsidian Chest
+21,1620,0,Pumpkin Chest
+21,1656,0,Spooky Chest
+21,1692,0,Glass Chest
+21,1728,0,Martian Chest
+21,1764,0,Meteorite Chest
+21,1800,0,Granite Chest
+21,1836,0,Marble Chest
+88,0,0,Dresser
+88,54,0,Ebonwood Dresser
+88,108,0,Rich Mahogany Dresser
+88,162,0,Pearlwood Dresser
+88,216,0,Shadewood Dresser
+88,270,0,Blue Dungeon Dresser
+88,324,0,Green Dungeon Dresser
+88,378,0,Pink Dungeon Dresser
+88,432,0,Golden Dresser
+88,486,0,Obsidian Dresser
+88,540,0,Bone Dresser
+88,594,0,Cactus Dresser
+88,648,0,Spooky Dresser
+88,702,0,Skyware Dresser
+88,756,0,Honey Dresser
+88,810,0,Lihzahrd Dresser
+88,864,0,Palm Wood Dresser
+88,918,0,Mushroom Dresser
+88,972,0,Boreal Wood Dresser
+88,1026,0,Slime Dresser
+88,1080,0,Pumpkin Dresser
+88,1134,0,Steampunk Dresser
+88,1188,0,Glass Dresser
+88,1242,0,Flesh Dresser
+88,1296,0,Martian Dresser
+88,1350,0,Meteorite Dresser
+88,1404,0,Granite Dresser
+88,1458,0,Marble Dresser
+88,1512,0,Crystal Dresser
+88,1566,0,Dynasty Dresser
+88,1620,0,Frozen Dresser
+88,1674,0,Living Wood Dresser
+467,0,0,Crystal Chest
+467,36,0,Golden Chest
+467,72,0,Spider Chest
+467,108,0,Lesion Chest
+467,144,0,Dead Man's Chest
+467,180,0,Solar Chest
+467,216,0,Vortex Chest
+467,252,0,Nebula Chest
+467,288,0,Stardust Chest
+467,324,0,Golf Chest
+467,360,0,Sandstone Chest
+467,396,0,Bamboo Chest
+467,432,0,Locked Desert Chest
+467,468,0,Desert Chest

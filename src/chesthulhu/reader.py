@@ -1,13 +1,29 @@
 from __future__ import annotations
 from dataclasses import dataclass
 import os
+from pathlib import Path
 import struct
+from types import TracebackType
 from typing import IO
 
 
 @dataclass
-class ByteReader:
+class FieldReader:
     fp: IO[bytes]
+
+    def __init__(self, p: Path) -> None:
+        self.fp = p.open("rb")
+
+    def __enter__(self) -> FieldReader:
+        return self
+
+    def __exit__(
+        self,
+        _exc_type: type[BaseException] | None,
+        _exc_val: BaseException | None,
+        _exc_tb: TracebackType | None,
+    ) -> None:
+        self.fp.close()
 
     def seek(self, pos: int) -> None:
         self.fp.seek(pos)
