@@ -69,7 +69,7 @@ class Database:
     def load(cls) -> Database:
         data_dir = files("chesthulhu") / "data"
         versions = {}
-        with (data_dir / "versions.csv").open(encoding="utf-8", newline="") as fp:
+        with (data_dir / "versions.csv").open(encoding="utf-8", newline="") as fp:  # type: ignore[call-overload]
             reader = csv.DictReader(fp)
             for row in reader:
                 v = int(row["wld_version"])
@@ -79,7 +79,7 @@ class Database:
                     coord_jump=coord_jump, global_slots=global_slots
                 )
         containers = {}
-        with (data_dir / "containers.csv").open(encoding="utf-8", newline="") as fp:
+        with (data_dir / "containers.csv").open(encoding="utf-8", newline="") as fp:  # type: ignore[call-overload]
             reader = csv.DictReader(fp)
             for row in reader:
                 tile_id = int(row["tile_id"])
@@ -88,12 +88,12 @@ class Database:
                 name = row["name"]
                 containers[(tile_id, u, v)] = name
         items = {}
-        with (data_dir / "items.csv").open(encoding="utf-8", newline="") as fp:
+        with (data_dir / "items.csv").open(encoding="utf-8", newline="") as fp:  # type: ignore[call-overload]
             reader = csv.DictReader(fp)
             for row in reader:
                 items[int(row["id"])] = row["name"]
         modifiers = {}
-        with (data_dir / "modifiers.csv").open(encoding="utf-8", newline="") as fp:
+        with (data_dir / "modifiers.csv").open(encoding="utf-8", newline="") as fp:  # type: ignore[call-overload]
             reader = csv.DictReader(fp)
             for row in reader:
                 modifiers[int(row["id"])] = row["name"]
