@@ -431,7 +431,7 @@ def toml_string(s: str) -> str:
             case "\x1f":
                 s2 += r"\x1f"
             case c if ord(c) < 0x20:
-                s2 += "\\x{:02x}".format(ord(c))
+                s2 += "\\u{:04x}".format(ord(c))
             case c:
                 s2 += c
     s2 += '"'
