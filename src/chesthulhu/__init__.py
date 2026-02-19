@@ -102,7 +102,10 @@ class Database:
         )
 
     def get_version_info(self, version: int) -> VersionInfo:
-        raise NotImplementedError
+        try:
+            return self.versions[version]
+        except KeyError:
+            raise ValueError(f"Unknown/unsupported .wld file version: {version}")
 
     def get_container_type(self, tile_id: int, u: int, v: int) -> str | RawChestType:
         return self.containers.get(
