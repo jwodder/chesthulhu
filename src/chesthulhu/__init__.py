@@ -112,8 +112,11 @@ class Database:
     def get_item(self, item_id: int) -> str | Id:
         return self.items.get(item_id, Id(item_id))
 
-    def get_modifier(self, mod_id: int) -> str | Id:
-        return self.modifiers.get(mod_id, Id(mod_id))
+    def get_modifier(self, mod_id: int) -> str | Id | None:
+        if mod_id == 0:
+            return None
+        else:
+            return self.modifiers.get(mod_id, Id(mod_id))
 
 
 @dataclass
