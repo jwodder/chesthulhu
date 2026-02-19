@@ -22,6 +22,10 @@ world and their contents.
 
 .. _Terraria: http://www.terraria.org
 
+``chesthulhu`` is intended to be compatible with ``.wld`` files created by the
+most recent version of Terraria (v1.4.5.5 at time of writing) along with some
+recent older versions.
+
 Installation
 ============
 ``chesthulhu`` requires Python 3.11 or higher.  Just use `pip
