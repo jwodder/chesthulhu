@@ -3685,7 +3685,7 @@ id,name
 3636,Team Block Pink
 3637,Team Block White
 3638,Team Block Green Platform
-3639,Team Block BlueP latform
+3639,Team Block Blue Platform
 3640,Team Block Yellow Platform
 3641,Team Block Pink Platform
 3642,Team Block White Platform
@@ -5164,1020 +5164,1023 @@ id,name
 5122,The Firestarter
 5123,The Bereaved
 5124,The Strongman
-5125,FartMinecart
-5126,HandOfCreation
-5127,VioletMoss
-5128,RainbowMoss
+5125,Fart Kart
+5126,Hand Of Creation
+5127,Neon Moss
+5128,Helium Moss
 5129,Flymeal
-5130,WolfMountItem
-5131,ResplendentDessert
+5130,Lilith's Necklace
+5131,Resplendent Dessert
 5132,Stinkbug
-5133,StinkbugCage
-5134,Clentaminator2
-5135,VenomDartTrap
-5136,VulkelfEar
-5137,StinkbugHousingBlocker
-5138,StinkbugHousingBlockerEcho
-5139,FishingBobber
-5140,FishingBobberGlowingStar
-5141,FishingBobberGlowingLava
-5142,FishingBobberGlowingKrypton
-5143,FishingBobberGlowingXenon
-5144,FishingBobberGlowingArgon
-5145,FishingBobberGlowingViolet
-5146,FishingBobberGlowingRainbow
-5147,WandofFrosting
-5148,CoralBathtub
-5149,CoralBed
-5150,CoralBookcase
-5151,CoralDresser
-5152,CoralCandelabra
-5153,CoralCandle
-5154,CoralChair
-5155,CoralChandelier
-5156,CoralChest
-5157,CoralClock
-5158,CoralDoor
-5159,CoralLamp
-5160,CoralLantern
-5161,CoralPiano
-5162,CoralPlatform
-5163,CoralSink
-5164,CoralSofa
-5165,CoralTable
-5166,CoralWorkbench
-5167,Fake_CoralChest
-5168,CoralToilet
-5169,BalloonBathtub
-5170,BalloonBed
-5171,BalloonBookcase
-5172,BalloonDresser
-5173,BalloonCandelabra
-5174,BalloonCandle
-5175,BalloonChair
-5176,BalloonChandelier
-5177,BalloonChest
-5178,BalloonClock
-5179,BalloonDoor
-5180,BalloonLamp
-5181,BalloonLantern
-5182,BalloonPiano
-5183,BalloonPlatform
-5184,BalloonSink
-5185,BalloonSofa
-5186,BalloonTable
-5187,BalloonWorkbench
-5188,Fake_BalloonChest
-5189,BalloonToilet
-5190,AshWoodBathtub
-5191,AshWoodBed
-5192,AshWoodBookcase
-5193,AshWoodDresser
-5194,AshWoodCandelabra
-5195,AshWoodCandle
-5196,AshWoodChair
-5197,AshWoodChandelier
-5198,AshWoodChest
-5199,AshWoodClock
-5200,AshWoodDoor
-5201,AshWoodLamp
-5202,AshWoodLantern
-5203,AshWoodPiano
-5204,AshWoodPlatform
-5205,AshWoodSink
-5206,AshWoodSofa
-5207,AshWoodTable
-5208,AshWoodWorkbench
-5209,Fake_AshWoodChest
-5210,AshWoodToilet
-5211,BiomeSightPotion
-5212,ScarletMacaw
-5213,ScarletMacawCage
-5214,AshGrassSeeds
-5215,AshWood
-5216,AshWoodWall
-5217,AshWoodFence
+5133,Stinkbug Cage
+5134,Terraformer
+5135,Venom Dart Trap
+5136,Vulkelf Ears
+5137,Stinkbug Blocker
+5138,Ghostly Stinkbug Blocker
+5139,Fishing Bobber
+5140,Glowing Fishing Bobber
+5141,Lava Moss Fishing Bobber
+5142,Krypton Moss Fishing Bobber
+5143,Xenon Moss Fishing Bobber
+5144,Argon Moss Fishing Bobber
+5145,Neon Moss Fishing Bobber
+5146,Helium Moss Fishing Bobber
+5147,Wand of Frosting
+5148,Reef Bathtub
+5149,Reef Bed
+5150,Reef Bookcase
+5151,Reef Dresser
+5152,Reef Candelabra
+5153,Reef Candle
+5154,Reef Chair
+5155,Reef Chandelier
+5156,Reef Chest
+5157,Reef Clock
+5158,Reef Door
+5159,Reef Lamp
+5160,Reef Lantern
+5161,Reef Piano
+5162,Reef Platform
+5163,Reef Sink
+5164,Reef Sofa
+5165,Reef Table
+5166,Reef Work Bench
+5167,Trapped Reef Chest
+5168,Reef Toilet
+5169,Balloon Bathtub
+5170,Balloon Bed
+5171,Balloon Bookcase
+5172,Balloon Dresser
+5173,Balloon Candelabra
+5174,Balloon Candle
+5175,Balloon Chair
+5176,Balloon Chandelier
+5177,Balloon Chest
+5178,Balloon Clock
+5179,Balloon Door
+5180,Balloon Lamp
+5181,Balloon Lantern
+5182,Balloon Piano
+5183,Balloon Platform
+5184,Balloon Sink
+5185,Balloon Sofa
+5186,Balloon Table
+5187,Balloon Work Bench
+5188,Trapped Balloon Chest
+5189,Balloon Toilet
+5190,Ash Wood Bathtub
+5191,Ash Wood Bed
+5192,Ash Wood Bookcase
+5193,Ash Wood Dresser
+5194,Ash Wood Candelabra
+5195,Ash Wood Candle
+5196,Ash Wood Chair
+5197,Ash Wood Chandelier
+5198,Ash Wood Chest
+5199,Ash Wood Clock
+5200,Ash Wood Door
+5201,Ash Wood Lamp
+5202,Ash Wood Lantern
+5203,Ash Wood Piano
+5204,Ash Wood Platform
+5205,Ash Wood Sink
+5206,Ash Wood Sofa
+5207,Ash Wood Table
+5208,Ash Wood Work Bench
+5209,Trapped Ash Wood Chest
+5210,Ash Wood Toilet
+5211,Biome Sight Potion
+5212,Scarlet Macaw
+5213,Scarlet Macaw Cage
+5214,Ash Grass Seeds
+5215,Ash Wood
+5216,Ash Wood Wall
+5217,Ash Wood Fence
 5218,Outcast
-5219,FairyGuides
-5220,AHorribleNightforAlchemy
-5221,MorningHunt
-5222,SuspiciouslySparkly
+5219,Fairy Guides
+5220,A Horrible Night for Alchemy
+5221,Morning Hunt
+5222,Suspiciously Sparkly
 5223,Requiem
-5224,CatSword
-5225,KargohsSummon
-5226,HighPitch
-5227,AMachineforTerrarians
-5228,TerraBladeChronicles
-5229,BennyWarhol
-5230,LizardKing
-5231,MySon
+5224,Cat Sword
+5225,Kargoh's Summon
+5226,High Pitch
+5227,A Machine for Terrarians
+5228,Terra Blade Chronicles
+5229,Benny Warhol
+5230,Lizard King
+5231,My Son
 5232,Duality
-5233,ParsecPals
-5234,RemnantsofDevotion
-5235,NotSoLostInParadise
-5236,OcularResonance
-5237,WingsofEvil
+5233,Parsec Pals
+5234,Remnants of Devotion
+5235,Not So Lost In Paradise
+5236,Ocular Resonance
+5237,Wings of Evil
 5238,Constellation
 5239,Eyezorhead
-5240,DreadoftheRedSea
-5241,DoNotEattheVileMushroom
-5242,YuumaTheBlueTiger
-5243,MoonmanandCompany
-5244,SunshineofIsrapony
+5240,Dread of the Red Sea
+5241,Do Not Eat the Vile Mushroom!
+5242,"Yuuma, The Blue Tiger"
+5243,Moonman & Company
+5244,Sunshine of Israpony
 5245,Purity
-5246,SufficientlyAdvanced
-5247,StrangeGrowth
-5248,HappyLittleTree
-5249,StrangeDeadFellows
+5246,Sufficiently Advanced
+5247,Strange Growth
+5248,Happy Little Tree
+5249,Strange Dead Fellows
 5250,Secrets
 5251,Thunderbolt
 5252,Crustography
-5253,TheWerewolf
-5254,BlessingfromTheHeavens
-5255,LoveisintheTrashSlot
+5253,The Werewolf
+5254,Blessing from the Heavens
+5255,Love is in the Trash Slot
 5256,Fangs
-5257,HailtotheKing
-5258,SeeTheWorldForWhatItIs
-5259,WhatLurksBelow
-5260,ThisIsGettingOutOfHand
+5257,Hail to the King
+5258,See The World For What It Is
+5259,What Lurks Below
+5260,This Is Getting Out Of Hand
 5261,Buddies
-5262,MidnightSun
-5263,CouchGag
-5264,SilentFish
-5265,TheDuke
-5266,RoyalRomance
+5262,Midnight Sun
+5263,Couch Gag
+5264,Silent Fish
+5265,The Duke
+5266,Royal Romance
 5267,Bioluminescence
 5268,Wildflowers
-5269,VikingVoyage
+5269,Viking Voyage
 5270,Bifrost
 5271,Heartlands
-5272,ForestTroll
-5273,AuroraBorealis
-5274,LadyOfTheLake
-5275,JojaCola
-5276,JunimoPetItem
-5277,SpicyPepper
+5272,Forest Troll
+5273,Aurora Borealis
+5274,Lady Of The Lake
+5275,Joja Cola
+5276,Stardrop
+5277,Spicy Pepper
 5278,Pomegranate
-5279,AshWoodHelmet
-5280,AshWoodBreastplate
-5281,AshWoodGreaves
-5282,AshWoodBow
-5283,AshWoodHammer
-5284,AshWoodSword
-5285,MoonGlobe
-5286,RepairedLifeCrystal
-5287,RepairedManaCrystal
-5288,TerraFartMinecart
-5289,MinecartPowerup
-5290,JimsCap
-5291,EchoWall
-5292,EchoPlatform
-5293,MushroomTorch
-5294,HiveFive
-5295,AcornAxe
-5296,ChlorophyteExtractinator
-5297,BlueEgg
+5279,Ash Wood Helmet
+5280,Ash Wood Breastplate
+5281,Ash Wood Greaves
+5282,Ash Wood Bow
+5283,Ash Wood Hammer
+5284,Ash Wood Sword
+5285,Moon Globe
+5286,Repaired Life Crystal
+5287,Repaired Mana Crystal
+5288,Terra Fart Kart
+5289,Minecart Upgrade Kit
+5290,Jim's Cap
+5291,Echo Wall
+5292,Echo Platform
+5293,Mushroom Torch
+5294,Hive-Five
+5295,Axe of Regrowth
+5296,Chlorophyte Extractinator
+5297,Blue Chicken Egg
 5298,Trimarang
-5299,MushroomCampfire
-5300,BlueMacaw
-5301,BlueMacawCage
-5302,BottomlessHoneyBucket
-5303,HoneyAbsorbantSponge
-5304,UltraAbsorbantSponge
-5305,GoblorcEar
-5306,ReefBlock
-5307,ReefWall
-5308,PlacePainting
-5309,DontHurtNatureBook
-5310,PrincessStyle
+5299,Mushroom Campfire
+5300,Blue Macaw
+5301,Blue Macaw Cage
+5302,Bottomless Honey Bucket
+5303,Honey Absorbant Sponge
+5304,Ultra Absorbant Sponge
+5305,Goblorc Ears
+5306,Reef Block
+5307,Reef Wall
+5308,r/Terraria
+5309,Guide to Environmental Preservation
+5310,Princess Style
 5311,Toucan
-5312,YellowCockatiel
-5313,GrayCockatiel
-5314,ToucanCage
-5315,YellowCockatielCage
-5316,GrayCockatielCage
-5317,MacawStatue
-5318,ToucanStatue
-5319,CockatielStatue
-5320,PlaceableHealingPotion
-5321,PlaceableManaPotion
-5322,ShadowCandle
-5323,DontHurtComboBook
-5324,RubblemakerSmall
-5325,ClosedVoidBag
-5326,ArtisanLoaf
-5327,TNTBarrel
-5328,ChestLock
-5329,RubblemakerMedium
-5330,RubblemakerLarge
-5331,HorseshoeBundle
-5332,SpiffoPlush
-5333,GlowTulip
-5334,MechdusaSummon
-5335,RodOfHarmony
-5336,CombatBookVolumeTwo
-5337,AegisCrystal
-5338,AegisFruit
-5339,ArcaneCrystal
-5340,GalaxyPearl
-5341,GummyWorm
+5312,Yellow Cockatiel
+5313,Gray Cockatiel
+5314,Toucan Cage
+5315,Yellow Cockatiel Cage
+5316,Gray Cockatiel Cage
+5317,Macaw Statue
+5318,Toucan Statue
+5319,Cockatiel Statue
+5320,Decorative Healing Potion
+5321,Decorative Mana Potion
+5322,Shadow Candle
+5323,Guide to Peaceful Coexistence
+5324,Rubblemaker (Small)
+5325,Closed Void Bag
+5326,Artisan Loaf
+5327,TNT Barrel
+5328,Chest Lock
+5329,Rubblemaker (Medium)
+5330,Rubblemaker (Large)
+5331,Bundle of Horseshoe Balloons
+5332,Spiffo Plush
+5333,Glow Tulip
+5334,Ocram's Razor
+5335,Rod of Harmony
+5336,Advanced Combat Techniques: Volume Two
+5337,Vital Crystal
+5338,Aegis Fruit
+5339,Arcane Crystal
+5340,Galaxy Pearl
+5341,Gummy Worm
 5342,Ambrosia
-5343,PeddlersSatchel
-5344,EchoCoating
-5345,EchoMonolith
-5346,GasTrap
-5347,ShimmerMonolith
-5348,ShimmerArrow
-5349,ShimmerBlock
-5350,Shimmerfly
-5351,ShimmerflyinaBottle
-5352,ShimmerSlimeBanner
-5353,ShimmerTorch
-5354,ReflectiveShades
-5355,ShimmerCloak
-5356,UsedGasTrap
-5357,ShimmerCampfire
-5358,Shellphone
-5359,ShellphoneSpawn
-5360,ShellphoneOcean
-5361,ShellphoneHell
-5362,MusicBoxShimmer
-5363,SpiderWallUnsafe
-5364,BottomlessShimmerBucket
-5365,BlueBrickWallUnsafe
-5366,BlueSlabWallUnsafe
-5367,BlueTiledWallUnsafe
-5368,PinkBrickWallUnsafe
-5369,PinkSlabWallUnsafe
-5370,PinkTiledWallUnsafe
-5371,GreenBrickWallUnsafe
-5372,GreenSlabWallUnsafe
-5373,GreenTiledWallUnsafe
-5374,SandstoneWallUnsafe
-5375,HardenedSandWallUnsafe
-5376,LihzahrdWallUnsafe
-5377,SpelunkerFlare
-5378,CursedFlare
-5379,RainbowFlare
-5380,ShimmerFlare
-5381,Moondial
-5382,WaffleIron
-5383,BouncyBoulder
-5384,LifeCrystalBoulder
-5385,DizzyHat
-5386,LincolnsHoodie
-5387,LincolnsPants
-5388,SunOrnament
-5389,HoplitePizza
-5390,LincolnsHood
-5391,UncumberingStone
-5392,SandSolution
-5393,SnowSolution
-5394,DirtSolution
-5395,PoopBlock
-5396,PoopWall
-5397,ShimmerWall
-5398,ShimmerBrick
-5399,ShimmerBrickWall
-5400,DirtiestBlock
-5401,LunarRustBrick
-5402,DarkCelestialBrick
-5403,AstraBrick
-5404,CosmicEmberBrick
-5405,CryocoreBrick
-5406,MercuryBrick
-5407,StarRoyaleBrick
-5408,HeavenforgeBrick
-5409,LunarRustBrickWall
-5410,DarkCelestialBrickWall
-5411,AstraBrickWall
-5412,CosmicEmberBrickWall
-5413,CryocoreBrickWall
-5414,MercuryBrickWall
-5415,StarRoyaleBrickWall
-5416,HeavenforgeBrickWall
-5417,AncientBlueDungeonBrick
-5418,AncientBlueDungeonBrickWall
-5419,AncientGreenDungeonBrick
-5420,AncientGreenDungeonBrickWall
-5421,AncientPinkDungeonBrick
-5422,AncientPinkDungeonBrickWall
-5423,AncientGoldBrick
-5424,AncientGoldBrickWall
-5425,AncientSilverBrick
-5426,AncientSilverBrickWall
-5427,AncientCopperBrick
-5428,AncientCopperBrickWall
-5429,AncientCobaltBrick
-5430,AncientCobaltBrickWall
-5431,AncientMythrilBrick
-5432,AncientMythrilBrickWall
-5433,AncientObsidianBrick
-5434,AncientObsidianBrickWall
-5435,AncientHellstoneBrick
-5436,AncientHellstoneBrickWall
-5437,ShellphoneDummy
+5343,Peddler's Satchel
+5344,Echo Coating
+5345,Echo Chamber
+5346,Gas Trap
+5347,Aether Monolith
+5348,Shimmer Arrow
+5349,Aetherium Block
+5350,Faeling
+5351,Faeling in a Bottle
+5352,Shimmer Slime Banner
+5353,Aether Torch
+5354,Reflective Shades
+5355,Chromatic Cloak
+5356,Used Gas Trap
+5357,Aether Campfire
+5358,Shellphone (Home)
+5359,Shellphone (Spawn)
+5360,Shellphone (Ocean)
+5361,Shellphone (Underworld)
+5362,Music Box (Aether)
+5363,Infested Spider Wall
+5364,Bottomless Shimmer Bucket
+5365,Cursed Blue Brick Wall
+5366,Cursed Blue Slab Wall
+5367,Cursed Blue Tiled Wall
+5368,Cursed Pink Brick Wall
+5369,Cursed Pink Slab Wall
+5370,Cursed Pink Tiled Wall
+5371,Cursed Green Brick Wall
+5372,Cursed Green Slab Wall
+5373,Cursed Green Tiled Wall
+5374,Treacherous Sandstone Wall
+5375,Treacherous Hardened Sand Wall
+5376,Forbidden Lihzahrd Brick Wall
+5377,Spelunker Flare
+5378,Cursed Flare
+5379,Rainbow Flare
+5380,Shimmer Flare
+5381,Enchanted Moondial
+5382,Waffle's Iron
+5383,Bouncy Boulder
+5384,Life Crystal Boulder
+5385,Dizzy's Rare Gecko Chester
+5386,Raynbro's Hoodie
+5387,Raynbro's Pants
+5388,Eye of the Sun
+5389,Cheesy Pizza Poster
+5390,Raynbro's Hood
+5391,Uncumbering Stone
+5392,Yellow Solution
+5393,White Solution
+5394,Brown Solution
+5395,Poo
+5396,Poo Wall
+5397,Aetherium Wall
+5398,Aetherium Brick
+5399,Aetherium Brick Wall
+5400,The Dirtiest Block
+5401,Lunar Rust Brick
+5402,Dark Celestial Brick
+5403,Astra Brick
+5404,Cosmic Ember Brick
+5405,Cryocore Brick
+5406,Mercury Brick
+5407,Star Royale Brick
+5408,Heavenforge Brick
+5409,Lunar Rust Brick Wall
+5410,Dark Celestial Brick Wall
+5411,Astra Brick Wall
+5412,Cosmic Ember Brick Wall
+5413,Cryocore Brick Wall
+5414,Mercury Brick Wall
+5415,Star Royale Brick Wall
+5416,Heavenforge Brick Wall
+5417,Ancient Blue Brick
+5418,Ancient Blue Brick Wall
+5419,Ancient Green Brick
+5420,Ancient Green Brick Wall
+5421,Ancient Pink Brick
+5422,Ancient Pink Brick Wall
+5423,Ancient Gold Brick
+5424,Ancient Gold Brick Wall
+5425,Ancient Silver Brick
+5426,Ancient Silver Brick Wall
+5427,Ancient Copper Brick
+5428,Ancient Copper Brick Wall
+5429,Ancient Cobalt Brick
+5430,Ancient Cobalt Brick Wall
+5431,Ancient Mythril Brick
+5432,Ancient Mythril Brick Wall
+5433,Ancient Obsidian Brick
+5434,Ancient Obsidian Brick Wall
+5435,Ancient Hellstone Brick
+5436,Ancient Hellstone Brick Wall
+5437,Shellphone
 5438,Fertilizer
-5439,LavaMossBlock
-5440,ArgonMossBlock
-5441,KryptonMossBlock
-5442,XenonMossBlock
-5443,VioletMossBlock
-5444,RainbowMossBlock
-5445,LavaMossBlockWall
-5446,ArgonMossBlockWall
-5447,KryptonMossBlockWall
-5448,XenonMossBlockWall
-5449,VioletMossBlockWall
-5450,RainbowMossBlockWall
-5451,JimsDrone
-5452,JimsDroneVisor
-5456,DeadCellsMushroomBoiSummonItem
-5457,DeadCellsBeheadedHead
-5458,DeadCellsBeheadedBody
-5459,DeadCellsBeheadedLegs
-5460,DeadCellsBarrelLauncher
-5461,DeadCellsKillingDeck
-5462,DeadCellsFlint
-5463,DeadCellsBarnacleSummonItem
-5464,MiteyTitey
-5465,DeadCellsRamRune
-5466,DeadCellsSwarmGrenade
-5467,DemonAltarReplica
-5468,CrimsonAltarReplica
-5469,ShadowOrbReplica
-5470,CrimsonHeartReplica
-5471,CobwebReplica
-5472,DeadCellsDisplayJar
-5473,CobWhip
-5474,CorruptWhip
-5475,CrimsonWhip
-5476,MeteorWhip
-5477,FlowerWhip
-5478,EelWhip
-5479,ConstellationWhip
-5480,MoonLordWhip
-5481,PortableKiln
-5482,DeadCellsPotionStation
-5483,QueenOfBees
-5484,PlayerVoiceCowbellItem
-5485,PlayerVoiceChickenFeetItem
-5486,TheSeaOfSilence
-5487,HeroesFromAnotherWorld
+5439,Lava Moss Brick
+5440,Argon Moss Brick
+5441,Krypton Moss Brick
+5442,Xenon Moss Brick
+5443,Neon Moss Brick
+5444,Helium Moss Brick
+5445,Lava Moss Brick Wall
+5446,Argon Moss Brick Wall
+5447,Krypton Moss Brick Wall
+5448,Xenon Moss Brick Wall
+5449,Neon Moss Brick Wall
+5450,Helium Moss Brick Wall
+5451,Kwad Racer Drone
+5452,FPV Goggles
+5453,Guide to Critter Companionship (Inactive)
+5454,Guide to Environmental Preservation (Inactive)
+5455,Guide to Peaceful Coexistence (Inactive)
+5456,Mushroom Staff
+5457,The Beheaded's Head
+5458,The Beheaded's Cuirass
+5459,The Beheaded's Trousers
+5460,Barrel Launcher
+5461,Killing Deck
+5462,Flint
+5463,Barnacle Staff
+5464,Mitey-Titey
+5465,Ram Rune
+5466,Swarm Grenade
+5467,Replica Demon Altar
+5468,Replica Crimson Altar
+5469,Replica Shadow Orb
+5470,Replica Crimson Heart
+5471,Decorative Cobweb
+5472,Item Flask
+5473,Cobwhip
+5474,Soulscourge
+5475,Vasculash
+5476,Starcrash
+5477,Vulgar Display of Flower
+5478,Electric Eel
+5479,Constellation
+5480,Possession
+5481,Portable Kiln
+5482,Alchemy Flask
+5483,Queen of Bees
+5484,Cow Bell
+5485,Chicken Charm
+5486,The Sea of Silence
+5487,Heroes From Another World
 5488,Crystallize
-5489,EaterOfLife
-5490,ThisIsCanonNow
-5491,WinterAtVaringskollen
-5492,MagicShimmerDropper
-5493,ShimmerFallBlock
-5494,ShimmerFallWall
-5495,ShimmerGun
-5496,LifeFruitHealingPotion
-5497,PinkBanner
-5498,WhiteBanner
-5499,PlayerVoiceFrogItem
-5500,PlayerVoiceGoatItem
-5501,PlayerVoiceRetroItem
-5502,PlayerVoiceCatItem
-5503,PlayerVoiceDogItem
-5504,PlayerVoiceTurkeyItem
-5505,PlayerVoiceGoblinItem
-5506,PlayerVoiceCrowItem
-5507,PlayerVoiceBalloonItem
-5508,PlayerVoiceUndeadItem
-5509,PlayerVoiceVampireItem
-5510,VelociraptorMountItem
+5489,Eater Of Life
+5490,Brasilian Skies
+5491,Winter At Varingskollen
+5492,Magic Shimmer Dropper
+5493,Shimmerfall Block
+5494,Shimmerfall Wall
+5495,Shimmer Gun
+5496,Jungle Juice
+5497,Pink Banner
+5498,White Banner
+5499,Froggy Neckband
+5500,Goat's Tuft
+5501,Old Companion Locket
+5502,Cat Chime
+5503,Dog Collar
+5504,Turkey Wattle Necklace
+5505,Mean Goblin's Spikes
+5506,Crow's Beak
+5507,Balloony Beads
+5508,Grim Old Barb
+5509,Vampire Pendant
+5510,Slasher's Mysterious Skull
 5511,Pufferfish
-5512,PufferfishCage
-5513,PufferfishPet
-5514,RainbowBoulder
-5515,MoonLordBody
-5516,Poulder
-5517,AxeFairyPetItem
-5518,SuperFertilizer
+5512,Pufferfish Cage
+5513,Puffer Shrimp
+5514,Rainbow Boulder
+5515,Moon Lord Torso
+5516,Poo Boulder
+5517,Faecorn
+5518,Infused Fertilizer
 5519,Axearang
-5520,LavaBoulder
-5521,SpiderBoulder
+5520,Lava Boulder
+5521,Spider Boulder
 5522,Ghoulder
-5523,BoulderPet
-5524,ChlorophyteVisor
-5525,RatMountItem
-5526,FlaironFlail
-5527,OfSeaAndDreams
-5528,TheRunicPixie
-5529,BannerOfTheBeast
-5530,StickmanVsTerrTerr
-5531,CozyWindow
-5532,DemonAltar
-5533,CrimsonAltar
-5534,PlayerVoiceFairyItem
-5535,PinkPhaseblade
-5536,PinkPhasesaber
-5537,BlackenedFish
-5538,MusicBoxQueenBee
-5539,MusicBoxTwins
-5540,MagicString
-5541,MagicYoyoBag
-5542,FreezeBomb
-5543,StressBall
-5544,CloudPlatform
-5545,LivingWoodWallUnsafe
-5546,DirtWallUnsafe
-5547,StrungCounterweight
-5548,AetheriumBathtub
-5549,AetheriumBed
-5550,AetheriumBookcase
-5551,AetheriumDresser
-5552,AetheriumCandelabra
-5553,AetheriumCandle
-5554,AetheriumChair
-5555,AetheriumChandelier
-5556,AetheriumChest
-5557,AetheriumClock
-5558,AetheriumDoor
-5559,AetheriumLamp
-5560,AetheriumLantern
-5561,AetheriumPiano
-5562,AetheriumPlatform
-5563,AetheriumSink
-5564,AetheriumSofa
-5565,AetheriumTable
-5566,AetheriumWorkbench
-5567,Fake_AetheriumChest
-5568,AetheriumToilet
-5569,LavaCloud
-5570,StarCloud
-5571,RainbowCloud
-5572,MudBallPlayer
-5573,TorchGodPotion
-5574,LuckyClover
-5575,WiltedClover
-5576,RavenFeather
-5577,PrettyMirror
-5578,MusicBoxKingSlime
-5579,MusicBoxQueenBeeAlt
-5580,MusicBoxLunaticCultist
-5581,MusicBoxSkeletronPrime
-5582,MusicBoxDestroyer
-5583,ChickenBonesHead
-5584,ChickenBonesBody
-5585,ChickenBonesLegs
-5586,ChickenBonesWings
-5587,ChickenBonesRobe
-5588,UpgradedMiningHead
-5589,UpgradedMiningBody
-5590,UpgradedMiningLegs
-5591,UpgradedFishingHead
-5592,UpgradedFishingBody
-5593,UpgradedFishingLegs
-5594,SuperBomb
-5595,SuperStickyBomb
-5596,WeldingMask
-5597,BatMountItem
-5598,CRTMonolith
-5599,RetroMonolith
-5600,RollerSkatesBlueMountItem
-5601,FallenStarBathtub
-5602,FallenStarBed
-5603,FallenStarBookcase
-5604,FallenStarDresser
-5605,FallenStarCandelabra
-5606,FallenStarCandle
-5607,FallenStarChair
-5608,FallenStarChandelier
-5609,FallenStarChest
-5610,FallenStarClock
-5611,FallenStarDoor
-5612,FallenStarLamp
-5613,FallenStarLantern
-5614,FallenStarPiano
-5615,FallenStarPlatform
-5616,FallenStarSink
-5617,FallenStarSofa
-5618,FallenStarTable
-5619,FallenStarWorkbench
-5620,Fake_FallenStarChest
-5621,FallenStarToilet
-5622,FallenStarBlock
-5623,FallenStarWall
-5624,ChippysHead
-5625,ChippysBody
-5626,ChippysLegs
-5627,ChippysWings
-5628,ChippysHeadband
-5629,AcornSlingshot
-5630,PaintingRPlace2023
-5631,PaintingBouldChoices
-5632,PaintingDarkForebodings
-5633,PaintingGermanZenith
-5634,PaintingItsScragglinTime
-5635,PaintingKaguya
-5636,PaintingGermanBeer
-5637,MusicBoxEaterOfWorlds
-5638,MusicBoxTorchGod
-5639,MusicBoxTorchGodAlt
-5640,RollerSkatesGreenMountItem
-5641,RollerSkatesClassicMountItem
-5642,RollerSkatesPartyMountItem
-5643,RainbowGlowstick
-5644,ScryingOrb
-5645,RockCandy
-5646,BlueBikiniBody
-5647,BlueBikiniLegs
-5648,RedSwimsuit
-5649,GreenSwimshorts
-5650,GraySwimshorts
-5651,OrcaBanner
-5652,TeleportationPylonUnderworld
-5653,TeleportationPylonShimmer
-5654,RainbowBoulderPet
-5655,NoirMonolith
-5656,HeroicisHead
-5657,HeroicisBody
-5658,HeroicisLegs
-5659,HeroicisWings
-5660,HallowedCrown
-5661,HeroicisWingsInactive
-5662,EnchantedPixieDust
-5663,PalworldMinionCattiva
-5664,PalworldMinionFoxsparks
-5665,PalworldPetChillet
-5666,PalworldPetChilletIgnis
-5667,PalworldDigtoise
-5668,SoundGun
-5669,TrueCopperShortsword
-5670,RainbowPhaseblade
-5671,RainbowPhasesaber
-5672,LibrarianSkeletonBanner
-5673,WaterBoltMimicBanner
-5674,TeamBlockRedVariant
-5675,TeamBlockGreenVariant
-5676,TeamBlockBlueVariant
-5677,TeamBlockYellowVariant
-5678,TeamBlockPinkVariant
-5679,TeamBlockWhiteVariant
-5680,LilacDuskHead
-5681,LilacDuskBody
-5682,LilacDuskLegs
-5683,KazzymodusHood
-5684,KazzymodusChestpiece
-5685,KazzymodusLeggings
-5686,KazzymodusWings
-5687,SlimeSpear
-5688,SlimeWhip
-5689,FeywoodBathtub
-5690,FeywoodBed
-5691,FeywoodBookcase
-5692,FeywoodDresser
-5693,FeywoodCandelabra
-5694,FeywoodCandle
-5695,FeywoodChair
-5696,FeywoodChandelier
-5697,FeywoodChest
-5698,FeywoodClock
-5699,FeywoodDoor
-5700,FeywoodLamp
-5701,FeywoodLantern
-5702,FeywoodPiano
-5703,FeywoodPlatform
-5704,FeywoodSink
-5705,FeywoodSofa
-5706,FeywoodTable
-5707,FeywoodWorkbench
-5708,Fake_FeywoodChest
-5709,FeywoodToilet
+5523,Friendly Boulder
+5524,Chlorophyte Visor
+5525,Cursed Piper Flute
+5526,Flairon
+5527,Of Sea and Dreams
+5528,The Runic Pixie
+5529,Banner of the Beast
+5530,Stickman vs Terr Terr
+5531,Cozy Window
+5532,Demon Altar
+5533,Crimson Altar
+5534,Fairy Choker
+5535,Pink Phaseblade
+5536,Pink Phasesaber
+5537,Blackened Fish
+5538,Music Box (Queen Bee)
+5539,Music Box (The Twins)
+5540,Magic String
+5541,Magic Yoyo Bag
+5542,Freeze Bomb
+5543,Stress Ball
+5544,Cloud Platform
+5545,Overgrown Living Wood Wall
+5546,Natural Dirt Wall
+5547,Strung Counterweight
+5548,Aetherium Bathtub
+5549,Aetherium Bed
+5550,Aetherium Bookcase
+5551,Aetherium Dresser
+5552,Aetherium Candelabra
+5553,Aetherium Candle
+5554,Aetherium Chair
+5555,Aetherium Chandelier
+5556,Aetherium Chest
+5557,Aetherium Clock
+5558,Aetherium Door
+5559,Aetherium Lamp
+5560,Aetherium Lantern
+5561,Aetherium Piano
+5562,Aetherium Platform
+5563,Aetherium Sink
+5564,Aetherium Sofa
+5565,Aetherium Table
+5566,Aetherium Work Bench
+5567,Trapped Aetherium Chest
+5568,Aetherium Toilet
+5569,Lava Cloud
+5570,Star Cloud
+5571,Rainbow Cloud
+5572,Mud Ball
+5573,Torch God's Flavor
+5574,Lucky Clover
+5575,Wilted Clover
+5576,Raven Feather
+5577,Pretty Mirror
+5578,Music Box (King Slime)
+5579,Music Box (Alt Queen Bee)
+5580,Music Box (Lunatic Cultist)
+5581,Music Box (Skeletron Prime)
+5582,Music Box (The Destroyer)
+5583,Chicken Bones' Visor
+5584,Chicken Bones' Vest
+5585,Chicken Bones' Pants
+5586,Chicken Bones' Wings
+5587,Chicken Bones' Robe
+5588,Prospector Helmet
+5589,Prospector Shirt
+5590,Prospector Pants
+5591,Captain Hat
+5592,Captain Vest
+5593,Captain Pants
+5594,Power Bomb
+5595,Sticky Power Bomb
+5596,Welding Mask
+5597,Amulet of the Night
+5598,CRT Monolith
+5599,Retro Monolith
+5600,Blue Roller Skates
+5601,Fallen Star Bathtub
+5602,Fallen Star Bed
+5603,Fallen Star Bookcase
+5604,Fallen Star Dresser
+5605,Fallen Star Candelabra
+5606,Fallen Star Candle
+5607,Fallen Star Chair
+5608,Fallen Star Chandelier
+5609,Fallen Star Chest
+5610,Fallen Star Clock
+5611,Fallen Star Door
+5612,Fallen Star Lamp
+5613,Fallen Star Lantern
+5614,Fallen Star Piano
+5615,Fallen Star Platform
+5616,Fallen Star Sink
+5617,Fallen Star Sofa
+5618,Fallen Star Table
+5619,Fallen Star Work Bench
+5620,Trapped Fallen Star Chest
+5621,Fallen Star Toilet
+5622,Fallen Star Block
+5623,Fallen Star Wall
+5624,Chippy's Helmet
+5625,Chippy's Chestplate
+5626,Chippy's Greaves
+5627,Chippy's Cloak
+5628,Chippy's Headband
+5629,Acorn Slingshot
+5630,r/Terraria 2023
+5631,Bould and Bash
+5632,Dark Forebodings
+5633,Oktober
+5634,It's Scragglin' Time
+5635,Kaguya
+5636,Prost
+5637,Music Box (Eater of Worlds)
+5638,Music Box (Torch God)
+5639,Music Box (Alt Torch God)
+5640,Green Roller Skates
+5641,Classic Roller Skates
+5642,Party Roller Skates
+5643,Rainbow Glowstick
+5644,Scrying Orb
+5645,Rock Candy
+5646,Blue Bikini Top
+5647,Blue Bikini Bottom
+5648,Red Swimsuit
+5649,Green Swimshorts
+5650,Gray Swimshorts
+5651,Orca Banner
+5652,Underworld Pylon
+5653,Aether Pylon
+5654,Friendly Rainbow Boulder
+5655,Film Projector
+5656,Heroicis' Hat
+5657,Heroicis' Coat
+5658,Heroicis' Pants
+5659,Heroicis' Wings
+5660,Hallowed Crown
+5661,Heroicis' Wings (Inactive)
+5662,Enchanted Pixie Dust
+5663,Cattiva
+5664,Foxparks
+5665,Chillet
+5666,Chillet Ignis
+5667,Digtoise
+5668,The Imploder
+5669,True Copper Shortsword
+5670,Rainbow Phaseblade
+5671,Rainbow Phasesaber
+5672,Librarian Skeleton Banner
+5673,Water Bolt Mimic Banner
+5674,Dull Red Team Block
+5675,Dull Green Team Block
+5676,Dull Blue Team Block
+5677,Dull Yellow Team Block
+5678,Dull Pink Team Block
+5679,Dull White Team Block
+5680,Lilac Dusk Hairclip
+5681,Lilac Dusk Dress
+5682,Lilac Dusk Skirt
+5683,Kazzymodus' Hood
+5684,Kazzymodus' Chestpiece
+5685,Kazzymodus' Leggings
+5686,Kazzymodus' Wings
+5687,Slime Spear
+5688,Slime Whip
+5689,Feywood Bathtub
+5690,Feywood Bed
+5691,Feywood Bookcase
+5692,Feywood Dresser
+5693,Feywood Candelabra
+5694,Feywood Candle
+5695,Feywood Chair
+5696,Feywood Chandelier
+5697,Feywood Chest
+5698,Feywood Clock
+5699,Feywood Door
+5700,Feywood Lamp
+5701,Feywood Lantern
+5702,Feywood Piano
+5703,Feywood Platform
+5704,Feywood Sink
+5705,Feywood Sofa
+5706,Feywood Table
+5707,Feywood Work Bench
+5708,Trapped Feywood Chest
+5709,Feywood Toilet
 5710,Feywood
-5711,FeywoodWall
-5712,HallowedBathtub
-5713,HallowedBed
-5714,HallowedBookcase
-5715,HallowedDresser
-5716,HallowedCandelabra
-5717,HallowedCandle
-5718,HallowedChair
-5719,HallowedChandelier
-5720,HallowedFurnitureChest
-5721,HallowedClock
-5722,HallowedDoor
-5723,HallowedLamp
-5724,HallowedLantern
-5725,HallowedPiano
-5726,HallowedPlatform
-5727,HallowedSink
-5728,HallowedSofa
-5729,HallowedTable
-5730,HallowedWorkbench
-5731,Fake_HallowedFurnitureChest
-5732,HallowedToilet
-5733,HallowedBrick
-5734,HallowedBrickWall
-5735,PalworldPalMetalArmorBody
-5736,PalworldPalMetalArmorLegs
-5737,ChippysWingsInactive
-5738,RemoteControlCar
-5739,GothicBathtub
-5740,GothicBed
-5741,GothicDresser
-5742,GothicCandelabra
-5743,GothicCandle
-5744,GothicChandelier
-5745,GothicChest
-5746,GothicClock
-5747,GothicDoor
-5748,GothicLamp
-5749,GothicLantern
-5750,GothicPiano
-5751,GothicPlatform
-5752,GothicSink
-5753,GothicSofa
-5754,Fake_GothicChest
-5755,GothicToilet
-5756,DemoniteBathtub
-5757,DemoniteBed
-5758,DemoniteBookcase
-5759,DemoniteCandelabra
-5760,DemoniteCandle
-5761,DemoniteChair
-5762,DemoniteChandelier
-5763,DemoniteChest
-5764,DemoniteClock
-5765,DemoniteDoor
-5766,DemoniteDresser
-5767,DemoniteLamp
-5768,DemoniteLantern
-5769,DemonitePiano
-5770,DemonitePlatform
-5771,DemoniteSink
-5772,DemoniteSofa
-5773,DemoniteTable
-5774,DemoniteToilet
-5775,DemoniteWorkbench
-5776,Fake_DemoniteChest
-5777,CrimtaneBathtub
-5778,CrimtaneBed
-5779,CrimtaneBookcase
-5780,CrimtaneCandelabra
-5781,CrimtaneCandle
-5782,CrimtaneChair
-5783,CrimtaneChandelier
-5784,CrimtaneChest
-5785,CrimtaneClock
-5786,CrimtaneDoor
-5787,CrimtaneDresser
-5788,CrimtaneLamp
-5789,CrimtaneLantern
-5790,CrimtanePiano
-5791,CrimtanePlatform
-5792,CrimtaneSink
-5793,CrimtaneSofa
-5794,CrimtaneTable
-5795,CrimtaneToilet
-5796,CrimtaneWorkbench
-5797,Fake_CrimtaneChest
-5798,SnowBathtub
-5799,SnowBed
-5800,SnowBookcase
-5801,SnowCandelabra
-5802,SnowCandle
-5803,SnowChair
-5804,SnowChandelier
-5805,SnowChest
-5806,SnowClock
-5807,SnowDoor
-5808,SnowDresser
-5809,SnowLamp
-5810,SnowLantern
-5811,SnowPiano
-5812,SnowPlatform
-5813,SnowSink
-5814,SnowSofa
-5815,SnowTable
-5816,SnowToilet
-5817,SnowWorkbench
-5818,Fake_SnowChest
-5819,FlinxFurBathtub
-5820,FlinxFurBed
-5821,FlinxFurBookcase
-5822,FlinxFurCandelabra
-5823,FlinxFurCandle
-5824,FlinxFurChair
-5825,FlinxFurChandelier
-5826,FlinxFurChest
-5827,FlinxFurClock
-5828,FlinxFurDoor
-5829,FlinxFurDresser
-5830,FlinxFurLamp
-5831,FlinxFurLantern
-5832,FlinxFurPiano
-5833,FlinxFurPlatform
-5834,FlinxFurSink
-5835,FlinxFurSofa
-5836,FlinxFurTable
-5837,FlinxFurToilet
-5838,FlinxFurWorkbench
-5839,Fake_FlinxFurChest
-5840,PineBathtub
-5841,PineBed
-5842,PineBookcase
-5843,PineCandelabra
-5844,PineCandle
-5845,PineChandelier
-5846,PineChest
-5847,PineClock
-5848,PineDresser
-5849,PineLamp
-5850,PineLantern
-5851,PinePiano
-5852,PinePlatform
-5853,PineSink
-5854,PineSofa
-5855,PineToilet
-5856,PineWorkbench
-5857,Fake_PineChest
-5858,EasterBathtub
-5859,EasterBed
-5860,EasterBookcase
-5861,EasterCandelabra
-5862,EasterCandle
-5863,EasterChair
-5864,EasterChandelier
-5865,EasterChest
-5866,EasterClock
-5867,EasterDoor
-5868,EasterDresser
-5869,EasterLamp
-5870,EasterLantern
-5871,EasterPiano
-5872,EasterPlatform
-5873,EasterSink
-5874,EasterSofa
-5875,EasterTable
-5876,EasterToilet
-5877,EasterWorkbench
-5878,Fake_EasterChest
-5879,StoneBathtub
-5880,StoneBed
-5881,StoneBookcase
-5882,StoneCandelabra
-5883,StoneCandle
-5884,StoneChair
-5885,StoneChandelier
-5886,StoneChest
-5887,StoneClock
-5888,StoneDresser
-5889,StoneLamp
-5890,StoneLantern
-5891,StonePiano
-5892,StoneSink
-5893,StoneSofa
-5894,StoneTable
-5895,StoneToilet
-5896,StoneWorkbench
-5897,Fake_StoneChest
-5898,JellyfishBathtub
-5899,JellyfishBed
-5900,JellyfishBookcase
-5901,JellyfishCandelabra
-5902,JellyfishCandle
-5903,JellyfishChair
-5904,JellyfishChandelier
-5905,JellyfishChest
-5906,JellyfishClock
-5907,JellyfishDoor
-5908,JellyfishDresser
-5909,JellyfishLamp
-5910,JellyfishLantern
-5911,JellyfishPiano
-5912,JellyfishPlatform
-5913,JellyfishSink
-5914,JellyfishSofa
-5915,JellyfishTable
-5916,JellyfishToilet
-5917,JellyfishWorkbench
-5918,Fake_JellyfishChest
-5919,PineTreeBlockWall
-5920,EasterBlock
-5921,EasterBlockWall
-5922,GothicBrick
-5923,GothicBrickWall
-5924,FlinxFurBlock
-5925,FlinxFurBlockWall
-5926,JellyfishBlock
-5927,JellyfishBlockWall
-5928,ToyBreakerBlock
-5929,PaintingRemix
-5930,PineWoodBlock
-5931,PineWoodBlockWall
-5932,HarpyBathtub
-5933,HarpyBed
-5934,HarpyBookcase
-5935,HarpyCandelabra
-5936,HarpyCandle
-5937,HarpyChair
-5938,HarpyChandelier
-5939,HarpyChest
-5940,HarpyClock
-5941,HarpyDoor
-5942,HarpyDresser
-5943,HarpyLamp
-5944,HarpyLantern
-5945,HarpyPiano
-5946,HarpyPlatform
-5947,HarpySink
-5948,HarpySofa
-5949,HarpyTable
-5950,HarpyToilet
-5951,HarpyWorkbench
-5952,Fake_HarpyChest
-5953,HarpyBlock
-5954,HarpyBlockWall
-5955,CloudBathtub
-5956,CloudBed
-5957,CloudBookcase
-5958,CloudCandelabra
-5959,CloudCandle
-5960,CloudChair
-5961,CloudChandelier
-5962,CloudChest
-5963,CloudClock
-5964,CloudDoor
-5965,CloudDresser
-5966,CloudLamp
-5967,CloudLantern
-5968,CloudPiano
-5969,CloudSink
-5970,CloudSofa
-5971,CloudTable
-5972,CloudToilet
-5973,CloudWorkbench
-5974,Fake_CloudChest
-5975,MoonplateBathtub
-5976,MoonplateBed
-5977,MoonplateBookcase
-5978,MoonplateCandelabra
-5979,MoonplateCandle
-5980,MoonplateChair
-5981,MoonplateChandelier
-5982,MoonplateChest
-5983,MoonplateClock
-5984,MoonplateDoor
-5985,MoonplateDresser
-5986,MoonplateLamp
-5987,MoonplateLantern
-5988,MoonplatePiano
-5989,MoonplatePlatform
-5990,MoonplateSink
-5991,MoonplateSofa
-5992,MoonplateTable
-5993,MoonplateToilet
-5994,MoonplateWorkbench
-5995,Fake_MoonplateChest
-5996,MoonplateBlock
-5997,MoonplateBlockWall
-5998,LibrarianBathtub
-5999,LibrarianBed
-6000,LibrarianBookcase
-6001,LibrarianCandelabra
-6002,LibrarianCandle
-6003,LibrarianChair
-6004,LibrarianChandelier
-6005,LibrarianChest
-6006,LibrarianClock
-6007,LibrarianDoor
-6008,LibrarianDresser
-6009,LibrarianLamp
-6010,LibrarianLantern
-6011,LibrarianPiano
-6012,LibrarianPlatform
-6013,LibrarianSink
-6014,LibrarianSofa
-6015,LibrarianTable
-6016,LibrarianToilet
-6017,LibrarianWorkbench
-6018,Fake_LibrarianChest
-6019,LibrarianBlock
-6020,LibrarianBlockWall
-6021,SpikeBathtub
-6022,SpikeBed
-6023,SpikeBookcase
-6024,SpikeCandelabra
-6025,SpikeCandle
-6026,SpikeChair
-6027,SpikeChandelier
-6028,SpikeChest
-6029,SpikeClock
-6030,SpikeDoor
-6031,SpikeDresser
-6032,SpikeLamp
-6033,SpikeLantern
-6034,SpikePiano
-6035,SpikePlatform
-6036,SpikeSink
-6037,SpikeSofa
-6038,SpikeTable
-6039,SpikeToilet
-6040,SpikeWorkbench
-6041,Fake_SpikeChest
-6042,SpikeBlock
-6043,SpikeBlockWall
-6044,OfficeBathtub
-6045,OfficeBed
-6046,OfficeBookcase
-6047,OfficeCandelabra
-6048,OfficeCandle
-6049,OfficeChair
-6050,OfficeChandelier
-6051,OfficeChest
-6052,OfficeClock
-6053,OfficeDoor
-6054,OfficeDresser
-6055,OfficeLamp
-6056,OfficeLantern
-6057,OfficePiano
-6058,OfficePlatform
-6059,OfficeSink
-6060,OfficeSofa
-6061,OfficeTable
-6062,OfficeToilet
-6063,OfficeWorkbench
-6064,Fake_OfficeChest
-6065,OfficeBlock
-6066,OfficeBlockWall
-6067,ForbiddenBathtub
-6068,ForbiddenBed
-6069,ForbiddenBookcase
-6070,ForbiddenCandelabra
-6071,ForbiddenCandle
-6072,ForbiddenChair
-6073,ForbiddenChandelier
-6074,ForbiddenChest
-6075,ForbiddenClock
-6076,ForbiddenDoor
-6077,ForbiddenDresser
-6078,ForbiddenLamp
-6079,ForbiddenLantern
-6080,ForbiddenPiano
-6081,ForbiddenPlatform
-6082,ForbiddenSink
-6083,ForbiddenSofa
-6084,ForbiddenTable
-6085,ForbiddenToilet
-6086,ForbiddenWorkbench
-6087,Fake_ForbiddenChest
-6088,ForbiddenBlock
-6089,ForbiddenBlockWall
-6090,WaterBathtub
-6091,WaterBed
-6092,WaterBookcase
-6093,WaterCandelabra
-6094,WaterFurnitureCandle
-6095,WaterChair
-6096,WaterChandelier
-6097,WaterClock
-6098,WaterDoor
-6099,WaterDresser
-6100,WaterLamp
-6101,WaterLantern
-6102,WaterPiano
-6103,WaterPlatform
-6104,WaterSink
-6105,WaterSofa
-6106,WaterTable
-6107,WaterToilet
-6108,WaterWorkbench
-6109,WaterBlock
-6110,WaterBlockWall
-6111,BoulderBathtub
-6112,BoulderBed
-6113,BoulderBookcase
-6114,BoulderCandelabra
-6115,BoulderCandle
-6116,BoulderChair
-6117,BoulderChandelier
-6118,BoulderChest
-6119,BoulderClock
-6120,BoulderDoor
-6121,BoulderDresser
-6122,BoulderLamp
-6123,BoulderLantern
-6124,BoulderPiano
-6125,BoulderPlatform
-6126,BoulderSink
-6127,BoulderSofa
-6128,BoulderTable
-6129,BoulderToilet
-6130,BoulderWorkbench
-6131,Fake_BoulderChest
-6132,BoulderBlock
-6133,BoulderBlockWall
-6134,DamagingSpikeBlock
-6135,DemonAltarIcon
-6136,CrimsonAltarIcon
-6137,LunasHead
-6138,LunasBody
-6139,LunasLegs
-6140,LunasWings
-6141,LunasCloak
-6142,PalworldChilletEgg
+5711,Feywood Wall
+5712,Hallowed Bathtub
+5713,Hallowed Bed
+5714,Hallowed Bookcase
+5715,Hallowed Dresser
+5716,Hallowed Candelabra
+5717,Hallowed Candle
+5718,Hallowed Chair
+5719,Hallowed Chandelier
+5720,Fancy Hallowed Chest
+5721,Hallowed Clock
+5722,Hallowed Door
+5723,Hallowed Lamp
+5724,Hallowed Lantern
+5725,Hallowed Piano
+5726,Hallowed Platform
+5727,Hallowed Sink
+5728,Hallowed Sofa
+5729,Hallowed Table
+5730,Hallowed Work Bench
+5731,Trapped Fancy Hallowed Chest
+5732,Hallowed Toilet
+5733,Hallowed Brick
+5734,Hallowed Brick Wall
+5735,Pal Metal Chestplate
+5736,Pal Metal Leggings
+5737,Chippy's Cloak (Inactive)
+5738,Wall Racer Car
+5739,Gothic Bathtub
+5740,Gothic Bed
+5741,Gothic Dresser
+5742,Gothic Candelabra
+5743,Gothic Candle
+5744,Gothic Chandelier
+5745,Gothic Chest
+5746,Gothic Clock
+5747,Gothic Door
+5748,Gothic Lamp
+5749,Gothic Lantern
+5750,Gothic Piano
+5751,Gothic Platform
+5752,Gothic Sink
+5753,Gothic Sofa
+5754,Trapped Gothic Chest
+5755,Gothic Toilet
+5756,Demonite Bathtub
+5757,Demonite Bed
+5758,Demonite Bookcase
+5759,Demonite Candelabra
+5760,Demonite Candle
+5761,Demonite Chair
+5762,Demonite Chandelier
+5763,Demonite Chest
+5764,Demonite Clock
+5765,Demonite Door
+5766,Demonite Dresser
+5767,Demonite Lamp
+5768,Demonite Lantern
+5769,Demonite Piano
+5770,Demonite Platform
+5771,Demonite Sink
+5772,Demonite Sofa
+5773,Demonite Table
+5774,Demonite Toilet
+5775,Demonite Work Bench
+5776,Trapped Demonite Chest
+5777,Crimtane Bathtub
+5778,Crimtane Bed
+5779,Crimtane Bookcase
+5780,Crimtane Candelabra
+5781,Crimtane Candle
+5782,Crimtane Chair
+5783,Crimtane Chandelier
+5784,Crimtane Chest
+5785,Crimtane Clock
+5786,Crimtane Door
+5787,Crimtane Dresser
+5788,Crimtane Lamp
+5789,Crimtane Lantern
+5790,Crimtane Piano
+5791,Crimtane Platform
+5792,Crimtane Sink
+5793,Crimtane Sofa
+5794,Crimtane Table
+5795,Crimtane Toilet
+5796,Crimtane Work Bench
+5797,Trapped Crimtane Chest
+5798,Snow Bathtub
+5799,Snow Bed
+5800,Snow Bookcase
+5801,Snow Candelabra
+5802,Snow Candle
+5803,Snow Chair
+5804,Snow Chandelier
+5805,Snow Chest
+5806,Snow Clock
+5807,Snow Door
+5808,Snow Dresser
+5809,Snow Lamp
+5810,Snow Lantern
+5811,Snow Piano
+5812,Snow Platform
+5813,Snow Sink
+5814,Snow Sofa
+5815,Snow Table
+5816,Snow Toilet
+5817,Snow Work Bench
+5818,Trapped Snow Chest
+5819,Flinx Fur Bathtub
+5820,Flinx Fur Bed
+5821,Flinx Fur Bookcase
+5822,Flinx Fur Candelabra
+5823,Flinx Fur Candle
+5824,Flinx Fur Chair
+5825,Flinx Fur Chandelier
+5826,Flinx Fur Chest
+5827,Flinx Fur Clock
+5828,Flinx Fur Door
+5829,Flinx Fur Dresser
+5830,Flinx Fur Lamp
+5831,Flinx Fur Lantern
+5832,Flinx Fur Piano
+5833,Flinx Fur Platform
+5834,Flinx Fur Sink
+5835,Flinx Fur Sofa
+5836,Flinx Fur Table
+5837,Flinx Fur Toilet
+5838,Flinx Fur Work Bench
+5839,Trapped Flinx Fur Chest
+5840,Pine Bathtub
+5841,Pine Bed
+5842,Pine Bookcase
+5843,Pine Candelabra
+5844,Pine Candle
+5845,Pine Chandelier
+5846,Pine Chest
+5847,Pine Clock
+5848,Pine Dresser
+5849,Pine Lamp
+5850,Pine Lantern
+5851,Pine Piano
+5852,Pine Platform
+5853,Pine Sink
+5854,Pine Sofa
+5855,Pine Toilet
+5856,Pine Work Bench
+5857,Trapped Pine Chest
+5858,Easter Bathtub
+5859,Easter Bed
+5860,Easter Bookcase
+5861,Easter Candelabra
+5862,Easter Candle
+5863,Easter Chair
+5864,Easter Chandelier
+5865,Easter Chest
+5866,Easter Clock
+5867,Easter Door
+5868,Easter Dresser
+5869,Easter Lamp
+5870,Easter Lantern
+5871,Easter Piano
+5872,Easter Platform
+5873,Easter Sink
+5874,Easter Sofa
+5875,Easter Table
+5876,Easter Toilet
+5877,Easter Work Bench
+5878,Trapped Easter Chest
+5879,Stone Bathtub
+5880,Stone Bed
+5881,Stone Bookcase
+5882,Stone Candelabra
+5883,Stone Candle
+5884,Stone Chair
+5885,Stone Chandelier
+5886,Stone Chest
+5887,Stone Clock
+5888,Stone Dresser
+5889,Stone Lamp
+5890,Stone Lantern
+5891,Stone Piano
+5892,Stone Sink
+5893,Stone Sofa
+5894,Stone Table
+5895,Stone Toilet
+5896,Stone Work Bench
+5897,Trapped Stone Chest
+5898,Jellyfish Bathtub
+5899,Jellyfish Bed
+5900,Jellyfish Bookcase
+5901,Jellyfish Candelabra
+5902,Jellyfish Candle
+5903,Jellyfish Chair
+5904,Jellyfish Chandelier
+5905,Jellyfish Chest
+5906,Jellyfish Clock
+5907,Jellyfish Door
+5908,Jellyfish Dresser
+5909,Jellyfish Lamp
+5910,Jellyfish Lantern
+5911,Jellyfish Piano
+5912,Jellyfish Platform
+5913,Jellyfish Sink
+5914,Jellyfish Sofa
+5915,Jellyfish Table
+5916,Jellyfish Toilet
+5917,Jellyfish Work Bench
+5918,Trapped Jellyfish Chest
+5919,Pine Tree Wall
+5920,Easter Block
+5921,Easter Wall
+5922,Gothic Brick
+5923,Gothic Brick Wall
+5924,Flinx Fur Block
+5925,Flinx Fur Wall
+5926,Jellyfish Block
+5927,Jellyfish Wall
+5928,Toybreaker Brick
+5929,Remix
+5930,Pine Wood
+5931,Pine Wood Wall
+5932,Harpy Bathtub
+5933,Harpy Bed
+5934,Harpy Bookcase
+5935,Harpy Candelabra
+5936,Harpy Candle
+5937,Harpy Chair
+5938,Harpy Chandelier
+5939,Harpy Chest
+5940,Harpy Clock
+5941,Harpy Door
+5942,Harpy Dresser
+5943,Harpy Lamp
+5944,Harpy Lantern
+5945,Harpy Piano
+5946,Harpy Platform
+5947,Harpy Sink
+5948,Harpy Sofa
+5949,Harpy Table
+5950,Harpy Toilet
+5951,Harpy Work Bench
+5952,Trapped Harpy Chest
+5953,Harpy Block
+5954,Harpy Wall
+5955,Cloud Bathtub
+5956,Cloud Bed
+5957,Cloud Bookcase
+5958,Cloud Candelabra
+5959,Cloud Candle
+5960,Cloud Chair
+5961,Cloud Chandelier
+5962,Cloud Chest
+5963,Cloud Clock
+5964,Cloud Door
+5965,Cloud Dresser
+5966,Cloud Lamp
+5967,Cloud Lantern
+5968,Cloud Piano
+5969,Cloud Sink
+5970,Cloud Sofa
+5971,Cloud Table
+5972,Cloud Toilet
+5973,Cloud Work Bench
+5974,Trapped Cloud Chest
+5975,Duskware Bathtub
+5976,Duskware Bed
+5977,Duskware Bookcase
+5978,Duskware Candelabra
+5979,Duskware Candle
+5980,Duskware Chair
+5981,Duskware Chandelier
+5982,Duskware Chest
+5983,Duskware Clock
+5984,Duskware Door
+5985,Duskware Dresser
+5986,Duskware Lamp
+5987,Duskware Lantern
+5988,Duskware Piano
+5989,Duskware Platform
+5990,Duskware Sink
+5991,Duskware Sofa
+5992,Duskware Table
+5993,Duskware Toilet
+5994,Duskware Work Bench
+5995,Trapped Duskware Chest
+5996,Moonplate Block
+5997,Crescent Wall
+5998,Librarian Bathtub
+5999,Librarian Bed
+6000,Librarian Bookcase
+6001,Librarian Candelabra
+6002,Librarian Candle
+6003,Librarian Chair
+6004,Librarian Chandelier
+6005,Librarian Chest
+6006,Librarian Clock
+6007,Librarian Door
+6008,Librarian Dresser
+6009,Librarian Lamp
+6010,Librarian Lantern
+6011,Librarian Piano
+6012,Librarian Platform
+6013,Librarian Sink
+6014,Librarian Sofa
+6015,Librarian Table
+6016,Librarian Toilet
+6017,Librarian Work Bench
+6018,Trapped Librarian Chest
+6019,Librarian Block
+6020,Librarian Wall
+6021,Spike Bathtub
+6022,Spike Bed
+6023,Spike Bookcase
+6024,Spike Candelabra
+6025,Spike Candle
+6026,Spike Chair
+6027,Spike Chandelier
+6028,Spike Chest
+6029,Spike Clock
+6030,Spike Door
+6031,Spike Dresser
+6032,Spike Lamp
+6033,Spike Lantern
+6034,Spike Piano
+6035,Spike Platform
+6036,Spike Sink
+6037,Spike Sofa
+6038,Spike Table
+6039,Spike Toilet
+6040,Spike Work Bench
+6041,Trapped Spike Chest
+6042,Spike Block
+6043,Spike Wall
+6044,Office Bathtub
+6045,Office Bed
+6046,Office Bookcase
+6047,Office Candelabra
+6048,Office Candle
+6049,Office Chair
+6050,Office Chandelier
+6051,Office Chest
+6052,Office Clock
+6053,Office Door
+6054,Office Dresser
+6055,Office Lamp
+6056,Office Lantern
+6057,Office Piano
+6058,Office Platform
+6059,Office Sink
+6060,Office Sofa
+6061,Office Table
+6062,Office Toilet
+6063,Office Work Bench
+6064,Trapped Office Chest
+6065,Office Block
+6066,Office Wall
+6067,Forbidden Bathtub
+6068,Forbidden Bed
+6069,Forbidden Bookcase
+6070,Forbidden Candelabra
+6071,Forbidden Candle
+6072,Forbidden Chair
+6073,Forbidden Chandelier
+6074,Forbidden Chest
+6075,Forbidden Clock
+6076,Forbidden Door
+6077,Forbidden Dresser
+6078,Forbidden Lamp
+6079,Forbidden Lantern
+6080,Forbidden Piano
+6081,Forbidden Platform
+6082,Forbidden Sink
+6083,Forbidden Sofa
+6084,Forbidden Table
+6085,Forbidden Toilet
+6086,Forbidden Work Bench
+6087,Trapped Forbidden Chest
+6088,Forbidden Block
+6089,Forbidden Wall
+6090,Aquarium Bathtub
+6091,Aquarium Bed
+6092,Aquarium Bookcase
+6093,Aquarium Candelabra
+6094,Aquarium Candle
+6095,Aquarium Chair
+6096,Aquarium Chandelier
+6097,Aquarium Clock
+6098,Aquarium Door
+6099,Aquarium Dresser
+6100,Aquarium Lamp
+6101,Aquarium Lantern
+6102,Aquarium Piano
+6103,Aquarium Platform
+6104,Aquarium Sink
+6105,Aquarium Sofa
+6106,Aquarium Table
+6107,Aquarium Toilet
+6108,Aquarium Work Bench
+6109,Aquarium Block
+6110,Aquarium Wall
+6111,Boulder Bathtub
+6112,Boulder Bed
+6113,Boulder Bookcase
+6114,Boulder Candelabra
+6115,Boulder Candle
+6116,Boulder Chair
+6117,Boulder Chandelier
+6118,Boulder Chest
+6119,Boulder Clock
+6120,Boulder Door
+6121,Boulder Dresser
+6122,Boulder Lamp
+6123,Boulder Lantern
+6124,Boulder Piano
+6125,Boulder Platform
+6126,Boulder Sink
+6127,Boulder Sofa
+6128,Boulder Table
+6129,Boulder Toilet
+6130,Boulder Work Bench
+6131,Trapped Boulder Chest
+6132,Boulder Block
+6133,Boulder Wall
+6134,Sharp Spike Block
+6135,Demon Altar
+6136,Crimson Altar
+6137,Luna's Runic Pixie Hood
+6138,Luna's Runic Pixie Shirt
+6139,Luna's Runic Pixie Pants
+6140,Luna's Runic Pixie Wings
+6141,Luna's Runic Pixie Cloak
+6142,Huge Dragon Egg
 6143,FoxparksTagEffect
-6144,MusicBoxSkeletron
+6144,Music Box (Skeletron)
