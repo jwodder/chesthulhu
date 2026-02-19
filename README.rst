@@ -75,10 +75,11 @@ Each ``chest`` table has the following keys:
   Meter, the Compass, and their upgrades.  This table contains the following
   keys:
 
-    - ``long`` — the distance in feet east of the world spawn point; negative
-      values are to the west of the spawn point
-    - ``lat`` — the distance in feet above the world's surface line; negative
-      values are underground
+  - ``long`` — the distance in feet east of the world spawn point; negative
+    values are to the west of the spawn point
+
+  - ``lat`` — the distance in feet above the world's surface line; negative
+    values are underground
 
 - ``type`` — A string giving the type of container (e.g., "Gold Chest" or
   "Obsidian Dresser").  If the type of container is unknown to ``chesthulhu``,
@@ -94,17 +95,17 @@ Each ``chest`` table has the following keys:
 - ``contents`` — An array of inline tables, each describing a nonempty stack of
   items in the container.  Each inline table has the following keys:
 
-    - ``item`` — The name of the item, not including any modifier/prefix.  If
-      the type of item is unknown to ``chesthulhu``, the value will instead be
-      an inline table containing a single ``id`` field (an integer) giving the
-      item ID.
+  - ``item`` — The name of the item, not including any modifier/prefix.  If the
+    type of item is unknown to ``chesthulhu``, the value will instead be an
+    inline table containing a single ``id`` field (an integer) giving the item
+    ID.
 
-    - ``modifier`` — The item's modifier/prefix as string; if the item doesn't
-      have a modifier, this field will not be present.  If the modifier is
-      unknown to ``chesthulhu``, the value will instead be an inline table
-      containing a single ``id`` field (an integer) giving the modifier ID.
+  - ``modifier`` — The item's modifier/prefix as string; if the item doesn't
+    have a modifier, this field will not be present.  If the modifier is
+    unknown to ``chesthulhu``, the value will instead be an inline table
+    containing a single ``id`` field (an integer) giving the modifier ID.
 
-    - ``qty`` — An integer giving the number of items in the stack
+  - ``qty`` — An integer giving the number of items in the stack
 
 An example chest table:
 
