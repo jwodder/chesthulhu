@@ -66,7 +66,7 @@ class FieldReader:
 
     def read_string(self) -> str:
         sz = self.read_u8()
-        return self.read_exact(sz).decode("latin-1")
+        return self.read_exact(sz).decode("utf-8", "replace")
 
     def read_rect(self) -> Rect:
         left = self.read_i32()
