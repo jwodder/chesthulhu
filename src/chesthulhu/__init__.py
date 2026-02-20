@@ -216,6 +216,7 @@ class Liquid(Enum):
     WATER = 1
     LAVA = 2
     HONEY = 3
+    SHIMMER = 4
 
 
 def read_chests(p: Path, db: Database) -> WorldOfChests:
@@ -318,9 +319,7 @@ def itertiles_rle(reader: FieldReader, info: WorldInfo) -> Iterator[tuple[Tile, 
     y = 0
     x = 0
     while (start := reader.tell()) < info.section_offsets[2]:
-        flags = reader.read_u8()  # lihzahrd's flags1
-        tile_flags = 0
-        flags4 = 0
+        flags = reader.read_u8()
         tile_id = None
         u = None
         v = None
@@ -328,14 +327,11 @@ def itertiles_rle(reader: FieldReader, info: WorldInfo) -> Iterator[tuple[Tile, 
         wall_type = None
         wall_color = None
         if flags & (1 << 0):
-            tile_flags = reader.read_u8()  # lihzahrd's flags2
-            if tile_flags & (1 << 0):
-                tile_flags |= reader.read_u8() << 8  # lihzahrd's flags3
-                # Per <https://github.com/Steffo99/lihzahrd/blob
-                #   /c162d33a9204164c27643bcbb33035120b0032aa
-                #   /src/lihzahrd/world.py#L278-L279>:
-                if tile_flags & (1 << 8):
-                    flags4 = reader.read_u8()
+            flags |= reader.read_u8() << 8  # lihzahrd's flags2
+            if flags & (1 << 8):
+                flags |= reader.read_u8() << 16  # lihzahrd's flags3
+                if flags & (1 << 16):
+                    flags |= reader.read_u8() << 24  # lihzahrd's flags4
         if flags & (1 << 1):
             tile_id = reader.read_u8()
             if flags & (1 << 5):
@@ -343,26 +339,29 @@ def itertiles_rle(reader: FieldReader, info: WorldInfo) -> Iterator[tuple[Tile, 
             if tile_id in info.important_tile_ids:
                 u = reader.read_i16()
                 v = reader.read_i16()
-            if tile_flags & (1 << 11):
+            if flags & (1 << 19):
                 tile_color = reader.read_u8()
         if flags & (1 << 2):
             wall_type = reader.read_u8()
-            if tile_flags & (1 << 12):
+            if flags & (1 << 20):
                 wall_color = reader.read_u8()
-        match (flags >> 3) & 0b11:
-            case 0:
-                liquid = None
-            case 1:
-                liquid = Liquid.WATER
-            case 2:
-                liquid = Liquid.LAVA
-            case 3:
-                liquid = Liquid.HONEY
+        if flags & (1 << 23):
+            liquid = Liquid.SHIMMER
+        else:
+            match (flags >> 3) & 0b11:
+                case 0:
+                    liquid = None
+                case 1:
+                    liquid = Liquid.WATER
+                case 2:
+                    liquid = Liquid.LAVA
+                case 3:
+                    liquid = Liquid.HONEY
         if liquid is not None:
             liquid_amount = reader.read_u8()
         else:
             liquid_amount = None
-        if tile_flags & (1 << 14):
+        if flags & (1 << 22):
             assert wall_type is not None
             wall_type |= reader.read_u8() << 8
         match (flags >> 6) & 0b11:
@@ -386,19 +385,19 @@ def itertiles_rle(reader: FieldReader, info: WorldInfo) -> Iterator[tuple[Tile, 
                 wall_color=wall_color,
                 liquid=liquid,
                 liquid_amount=liquid_amount,
-                red_wire=bool(tile_flags & 0b1),
-                blue_wire=bool(tile_flags & 0b10),
-                green_wire=bool(tile_flags & 0b100),
-                tile_slope=(tile_flags >> 4) & 0b111,
-                actuator=bool(tile_flags & (1 << 9)),
-                actuated=bool(tile_flags & (1 << 10)),
-                tile_painted=bool(tile_flags & (1 << 11)),
-                wall_painted=bool(tile_flags & (1 << 12)),
-                yellow_wire=bool(tile_flags & (1 << 13)),
-                block_echo=bool(flags4 & 1),
-                wall_echo=bool(flags4 & (1 << 2)),
-                block_illuminant=bool(flags4 & (1 << 3)),
-                wall_illuminant=bool(flags4 & (1 << 4)),
+                red_wire=bool(flags & (1 << 8)),
+                blue_wire=bool(flags & (1 << 9)),
+                green_wire=bool(flags & (1 << 10)),
+                tile_slope=(flags >> 12) & 0b111,
+                actuator=bool(flags & (1 << 17)),
+                actuated=bool(flags & (1 << 18)),
+                tile_painted=bool(flags & (1 << 19)),
+                wall_painted=bool(flags & (1 << 20)),
+                yellow_wire=bool(flags & (1 << 21)),
+                block_echo=bool(flags & (1 << 25)),
+                wall_echo=bool(flags & (1 << 26)),
+                block_illuminant=bool(flags & (1 << 27)),
+                wall_illuminant=bool(flags & (1 << 28)),
             ),
             rle_len,
         )
