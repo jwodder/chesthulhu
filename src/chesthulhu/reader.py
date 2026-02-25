@@ -45,7 +45,7 @@ class FieldReader:
 
     def read_u8(self) -> int:
         bs = self.read_exact(1)
-        return int.from_bytes(bs)  # Not signed
+        return int.from_bytes(bs, byteorder="little", signed=False)
 
     def read_int(self, length: int) -> int:
         bs = self.read_exact(length)

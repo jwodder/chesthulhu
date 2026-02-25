@@ -29,7 +29,7 @@ recent older versions.
 
 Installation
 ============
-``chesthulhu`` requires Python 3.11 or higher.  Just use `pip
+``chesthulhu`` requires Python 3.10 or higher.  Just use `pip
 <https://pip.pypa.io>`_ for Python 3 (You have pip, right?) to install it::
 
     python3 -m pip install git+https://github.com/jwodder/chesthulhu
