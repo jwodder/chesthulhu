@@ -2,6 +2,7 @@ In Development
 --------------
 - Use TOML 1.0-compatible escape sequences in output strings
 - Support Python 3.10
+- Support world files saved with Terraria v1.4.5.6
 
 v0.1.1 (2026-02-19)
 -------------------
