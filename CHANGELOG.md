@@ -1,3 +1,7 @@
+v0.2.0 (in development)
+-----------------------
+- Support Python 3.15
+
 v0.1.2 (2026-03-17)
 -------------------
 - Use TOML 1.0-compatible escape sequences in output strings
